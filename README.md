@@ -1,5 +1,7 @@
 # 🚗 Sistema CRUD - Controle de Clientes e Veículos
 
+Desenvolvido por: Beatriz Cristiane Haberman Severo Alves
+
 Um sistema web completo desenvolvido em PHP e MySQL para o gerenciamento de clientes e seus respectivos veículos. O projeto conta com controle de acesso (autenticação), criptografia de senhas, banco de dados relacional e uma interface moderna totalmente personalizada em tons de roxo com imagens de fundo responsivas.
 
 ---
