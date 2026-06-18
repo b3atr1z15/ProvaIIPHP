@@ -1,0 +1,146 @@
+/* estilo.css */
+
+/* Cores Globais Baseadas em Tons de Roxo */
+:root {
+    --purple-primary: #6f42c1;       /* Roxo principal */
+    --purple-hover: #6b4ba6;         /* Roxo mais escuro para efeito hover */
+    --purple-light: #4d3393;         /* Fundo roxo bem claro */
+    --purple-gradient: linear-gradient(135deg, #6f42c1, #43227a); /* Degradê elegante */
+}
+
+/* Fundo Geral da Página de Login */
+body.bg-light {
+    background-color: var(--purple-light) !important;
+}
+
+/* Customização dos Cards (Login e Formulários) */
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-header.bg-success, 
+.card-header.bg-warning {
+    background: var(--purple-gradient) !important;
+    color: rgb(84, 26, 139) !important;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Botões Personalizados */
+.btn-primary {
+    background: var(--purple-gradient) !important;
+    border: none !important;
+}
+
+.btn-primary:hover {
+    background: var(--purple-hover) !important;
+    box-shadow: 0 4px 12px rgba(111, 66, 193, 0.3);
+}
+
+.btn-success {
+    background-color: #28a745 !important; /* Mantém o verde para "Salvar", mas você pode usar roxo se preferir */
+}
+
+/* Barra de Navegação (Navbar) */
+.bg-dark {
+    background: var(--purple-gradient) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs de Formulário com Foco Roxo */
+.form-control:focus {
+    border-color: var(--purple-primary);
+    box-shadow: 0 0 0 0.25rem rgba(111, 66, 193, 0.25);
+}
+
+/* Tabela do CRUD */
+.table-dark {
+    background-color: #43227a !important;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(111, 66, 193, 0.05) !important;
+}
+
+/* Botão de contorno roxo para a tela de login */
+.btn-outline-primary {
+    color: var(--purple-primary) !important;
+    border-color: var(--purple-primary) !important;
+}
+
+.btn-outline-primary:hover {
+    color: rgb(38, 11, 78) !important;
+    background-color: var(--purple-primary) !important;
+    border-color: var(--purple-primary) !important;
+}
+/* Deixa o título principal do dashboard branco */
+h2.text-dark, .container h2 {
+    color: #ffffff !important;
+}
+
+/* Garante que outros textos de descrição ou títulos menores fiquem brancos ou claros */
+.text-muted {
+    color: #e1d8f5 !important; /* Um roxo bem clarinho para textos secundários ficarem bonitos */
+}
+
+/* Caso queira que todo o texto comum dentro do container principal mude para branco */
+.container {
+    color: #ffffff;
+}
+
+
+/* Telas de fundo*/
+.fundo-login, .fundo-dashboard, .fundo-cadastro {
+    background-size: cover !important;             
+    background-repeat: no-repeat !important;       
+    background-attachment: fixed !important;   
+}
+
+/* Imagem da tela de Login (com o Porsche roxo subido) */
+.fundo-login {
+    background-image: url('fundo-login.jpg') !important; 
+    background-position: center 55% !important;  
+}
+
+/* Imagem da tela de Consulta/Dashboard */
+.fundo-dashboard {
+    background-image: url('fundo-dashboard.jpg') !important; 
+    background-position: center 35% !important;
+}
+
+/* Imagem da tela de Cadastro/Edição */
+.fundo-cadastro {
+    background-image: url('fundo-cadastro.jpg') !important; 
+    background-position: center 55% !important;
+}
+
+.fundo-editar {
+    background-image: url('fundo-editar.jpg') !important; 
+    background-position: center 55% !important;
+}
+
+.card-header h4{
+    color: #ffffff !important; 
+    font-weight: bold !important;
+
+}
+
+.card-body h5.text-muted{
+    color: #43227a !important;
+    font-weight: 600 !important;
+
+}
+.table td small.text-muted, 
+.table td .text-muted {
+    color: #555555 !important;
+    font-weight: 500; 
+}
+
+.table tbody tr td {
+    color: #212529 !important;
+}
+
+.table td strong.text-dark {
+    color: #43227a !important;
+}
