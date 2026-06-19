@@ -37,6 +37,7 @@ $clientes = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="d-flex justify-content-between align-items-center mb-3">
             <h2 class="text-dark">Controle de Clientes e Veículos</h2>
             <a href="cadastrar.php" class="btn btn-success">Cadastrar Cliente/Carro</a>
+            <a href="relatorio.php" class="btn btn-info">Gerar PDF</a>
         </div>
 
         <div class="card shadow">
